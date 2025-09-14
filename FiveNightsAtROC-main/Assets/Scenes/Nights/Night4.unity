@@ -1799,7 +1799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13185bf250563fa47bd8e77f419f7d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameDurationInSeconds: 1
+  gameDurationInSeconds: 302
   timeScale: 1
   textObject: {fileID: 1890155615}
   rickAI: {fileID: 70329117}
