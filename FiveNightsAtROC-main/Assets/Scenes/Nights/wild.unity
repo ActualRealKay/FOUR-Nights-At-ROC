@@ -8389,7 +8389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 811173240}
-  disableDelay: 5
+  disableDelay: 4
 --- !u!1 &820470906
 GameObject:
   m_ObjectHideFlags: 0
