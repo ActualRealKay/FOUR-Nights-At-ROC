@@ -65,7 +65,7 @@ public class Wildtime : MonoBehaviour
         {
             rickAI.ailevel = 0;
             korsAI.currentAILevel = 6;
-            PaulAI.ailevel = 0;
+            PaulAI.ailevel = 20;
             PeterAI.ailevel = 0;
             VikingAI.aiLevel = 0;
         }
