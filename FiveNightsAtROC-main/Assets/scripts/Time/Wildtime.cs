@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -121,7 +121,7 @@ public class Wildtime : MonoBehaviour
 
     void EndGame()
     {
-        PlayerPrefs.SetString("currentnight", "Night 5");
+        PlayerPrefs.SetString("currentnight", "Night 4");
         gameEnded = true;
         timerText.text = "6 AM";
         SceneManager.LoadScene("6AM");
