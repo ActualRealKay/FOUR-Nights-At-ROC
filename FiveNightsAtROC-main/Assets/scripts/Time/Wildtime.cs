@@ -65,25 +65,25 @@ public class Wildtime : MonoBehaviour
         {
             rickAI.ailevel = 0;
             korsAI.currentAILevel = 6;
-            PaulAI.ailevel = 20;
+            PaulAI.ailevel = 0;
             PeterAI.ailevel = 0;
             VikingAI.aiLevel = 0;
         }
         else if (currentHour == 1)
         {
-            rickAI.ailevel = 4;
-            korsAI.currentAILevel = 2;
-            PaulAI.ailevel = 2;
+            rickAI.ailevel = 2;
+            korsAI.currentAILevel = 6;
+            PaulAI.ailevel = 4;
             PeterAI.ailevel = 2;
-            VikingAI.aiLevel = 5;
+            VikingAI.aiLevel = 7;
 
         }
         else if (currentHour == 2)
         {
             rickAI.ailevel = 4;
-            korsAI.currentAILevel = 2;
-            PaulAI.ailevel = 5;
-            PeterAI.ailevel = 3;
+            korsAI.currentAILevel = 6;
+            PaulAI.ailevel = 2;
+            PeterAI.ailevel = 4;
             VikingAI.aiLevel = 9;
 
 
@@ -91,30 +91,30 @@ public class Wildtime : MonoBehaviour
         else if (currentHour == 3)
         {
             rickAI.ailevel = 6;
-            korsAI.currentAILevel = 3;
-            PaulAI.ailevel = 5;
-            PeterAI.ailevel = 4;
+            korsAI.currentAILevel = 1;
+            PaulAI.ailevel = 4;
+            PeterAI.ailevel = 6;
             VikingAI.aiLevel = 11;
 
 
         }
         else if (currentHour == 4)
         {
-            rickAI.ailevel = 6;
-            korsAI.currentAILevel = 3;
-            PaulAI.ailevel = 5;
-            PeterAI.ailevel = 4;
-            VikingAI.aiLevel = 12;
+            rickAI.ailevel = 2;
+            korsAI.currentAILevel = 8;
+            PaulAI.ailevel = 2;
+            PeterAI.ailevel = 2;
+            VikingAI.aiLevel = 14;
 
 
         }
         else if (currentHour == 5)
         {
-            rickAI.ailevel = 7;
-            korsAI.currentAILevel = 3;
-            PaulAI.ailevel = 5;
-            PeterAI.ailevel = 4;
-            VikingAI.aiLevel = 12;
+            rickAI.ailevel = 4;
+            korsAI.currentAILevel = 1;
+            PaulAI.ailevel = 2;
+            PeterAI.ailevel = 2;
+            VikingAI.aiLevel = 16;
 
         }
     }
