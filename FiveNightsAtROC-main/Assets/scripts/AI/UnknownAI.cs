@@ -119,7 +119,7 @@ public class UnknownAI : MonoBehaviour
                         jumpscare.Play();
                         yield return new WaitForSeconds(1f);
 
-                        Application.Quit();
+                        SceneManager.LoadScene("GameOver");
                     }
                 }
             }
