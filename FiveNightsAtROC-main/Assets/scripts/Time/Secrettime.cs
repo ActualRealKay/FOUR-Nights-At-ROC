@@ -105,14 +105,12 @@ public class secrettime : MonoBehaviour
 
     void EndGame()
     {
-        PlayerPrefs.SetString("currentnight", "Night 2");
+        // Set BonusStar to 1 for this game
+        PlayerPrefs.SetInt("BonusStar", 1);
+        PlayerPrefs.Save();
+
         gameEnded = true;
         timerText.text = "6 AM";
-        SceneManager.LoadScene("6AM");
-    }
-
-    public void SetTimeScale(float newTimeScale)
-    {
-        timeScale = newTimeScale;
+        SceneManager.LoadScene("6AM"); // Or "MainMenu" if that's your actual menu scene
     }
 }
