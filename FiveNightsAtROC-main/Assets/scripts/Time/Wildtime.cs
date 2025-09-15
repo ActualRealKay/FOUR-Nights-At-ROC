@@ -121,8 +121,6 @@ public class Wildtime : MonoBehaviour
 
     void EndGame()
     {
-        PlayerPrefs.SetString("currentnight", "Night 4");
-
         // Decide which star to show. Example: show star 2
         PlayerPrefs.SetInt("BonusStar", 2); // 1, 2, or 3
         PlayerPrefs.Save();
