@@ -20,6 +20,8 @@ public class Wildtime : MonoBehaviour
     public PaulAI PaulAI;
     public PeterAI PeterAI;
     public VikingAI VikingAI;
+    public UnknownAI UnknownAI;
+
 
 
     void Start()

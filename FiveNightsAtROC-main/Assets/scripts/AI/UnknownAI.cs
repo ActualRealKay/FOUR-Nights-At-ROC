@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -32,9 +32,17 @@ public class UnknownAI : MonoBehaviour
     public GameObject camerahandler;
     public AudioSource jumpscare;
 
+    // 👇 Object that should blink in Cam2
+    public GameObject blinkObject;
+    private Coroutine blinkRoutine;
+
     void Start()
     {
         currentlocation = "scriptedwait";
+
+        // Make sure blink object is off at start
+        blinkObject.SetActive(false);
+
         StartCoroutine(UnknownMove());
     }
 
@@ -64,6 +72,10 @@ public class UnknownAI : MonoBehaviour
                     Cam2.gameObject.SetActive(true);
                     yield return new WaitForSeconds(0.1f);
                     cam2static.SetActive(false);
+
+                    // 🔥 Start blinking when in cam2
+                    if (blinkRoutine == null)
+                        blinkRoutine = StartCoroutine(Blink(blinkObject, 0.5f));
                 }
                 else if (currentlocation == "cam2")
                 {
@@ -75,6 +87,14 @@ public class UnknownAI : MonoBehaviour
                     yield return new WaitForSeconds(0.1f);
                     cam2static.SetActive(false);
                     cam1static.SetActive(false);
+
+                    // 🛑 Stop blinking and fully disable when leaving cam2
+                    if (blinkRoutine != null)
+                    {
+                        StopCoroutine(blinkRoutine);
+                        blinkRoutine = null;
+                        blinkObject.SetActive(false);
+                    }
                 }
                 if (currentlocation == "cam1")
                 {
@@ -99,17 +119,23 @@ public class UnknownAI : MonoBehaviour
                         jumpscare.Play();
                         yield return new WaitForSeconds(1f);
 
-                        // Wait for a few seconds after the jumpscare before changing the scene
-                        // Change 3f to your desired delay
-
-                        // Load the next scene
                         Application.Quit();
                     }
                 }
             }
         }
-        // Start the coroutine again to continue its execution
+
+        // Continue the coroutine
         StartCoroutine(UnknownMove());
     }
 
+    // 👇 Blinking effect coroutine
+    IEnumerator Blink(GameObject obj, float interval)
+    {
+        while (true)
+        {
+            obj.SetActive(!obj.activeSelf);
+            yield return new WaitForSeconds(interval);
+        }
+    }
 }
