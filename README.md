@@ -1,3 +1,5 @@
+⚠️⚠️PLEASE CONTACT ME IF YOU WANT SOMETHING CHANGED BECAUSE I CAN CHANGE IT OR REMOVE YOU OUT OF THE GAME⚠️⚠️
+
 # 🎮 Unity Game Project
 
 Currently in development by **Kay**.  
