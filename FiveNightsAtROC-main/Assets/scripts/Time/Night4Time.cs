@@ -124,7 +124,7 @@ public class Night4Time : MonoBehaviour
         PlayerPrefs.SetString("currentnight", "Night 4");
         gameEnded = true;
         timerText.text = "6 AM";
-        SceneManager.LoadScene("6AM");
+        SceneManager.LoadScene("6AMWILDCODE");
     }
 
     public void SetTimeScale(float newTimeScale)
