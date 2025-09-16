@@ -108,7 +108,7 @@ public class Night2Time : MonoBehaviour
         PlayerPrefs.SetString("currentnight", "Night 3");
         gameEnded = true;
         timerText.text = "6 AM";
-        SceneManager.LoadScene("6AM");
+        SceneManager.LoadScene("6AM69420CODE");
     }
 
     public void SetTimeScale(float newTimeScale)
