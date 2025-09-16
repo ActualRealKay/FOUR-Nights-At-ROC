@@ -14,6 +14,7 @@ public class BOSS : MonoBehaviour
     public GameObject camerahandler;
     public AudioSource jumpscareSound;
     public AudioSource leaveSound;
+    public AudioSource appearSound;    // play when boss spawns in a cam
 
     [Header("Controls")]
     public int aiLevel;
@@ -63,6 +64,11 @@ public class BOSS : MonoBehaviour
 
                 // activate new cam + flash static
                 currentCamIndex = newCam;
+
+                // play spawn sound
+                if (appearSound != null)
+                    appearSound.Play();
+
                 bossCams[currentCamIndex].SetActive(true);
                 staticCams[currentCamIndex].SetActive(true);
                 yield return new WaitForSeconds(0.1f);
