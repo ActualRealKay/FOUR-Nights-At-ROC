@@ -121,10 +121,16 @@ public class Wildtime : MonoBehaviour
 
     void EndGame()
     {
-        // Unlock star 2 without touching others
+        // Unlock Star 2
         PlayerPrefs.SetInt("Star2Unlocked", 1);
+
+        // Mark Wild code as completed
+        PlayerPrefs.SetInt("WildCompleted", 1);
+
+        // Save all changes
         PlayerPrefs.Save();
 
+        // End game logic
         gameEnded = true;
         timerText.text = "6 AM";
         SceneManager.LoadScene("6AM");

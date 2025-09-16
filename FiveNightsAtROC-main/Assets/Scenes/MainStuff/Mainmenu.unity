@@ -341,6 +341,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227205538}
   m_CullTransparentMesh: 1
+--- !u!1 &252995784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 252995785}
+  - component: {fileID: 252995786}
+  m_Layer: 0
+  m_Name: night5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &252995785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252995784}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -99.416824, y: -28.020485, z: 2538.4548}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1526313393}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &252995786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252995784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca18f169866d3d0439a0ef9502dcb35f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &315677949
 GameObject:
   m_ObjectHideFlags: 0
@@ -2405,6 +2449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   secretCodeObject: {fileID: 1685409058}
   wildCodeObject: {fileID: 1619714593}
+  night5CodeObject: {fileID: 252995784}
 --- !u!4 &1526313393
 Transform:
   m_ObjectHideFlags: 0
@@ -2420,6 +2465,7 @@ Transform:
   m_Children:
   - {fileID: 1619714595}
   - {fileID: 1685409060}
+  - {fileID: 252995785}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1619714593

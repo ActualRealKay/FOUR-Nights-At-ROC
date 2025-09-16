@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Nights/Night4.unity
     guid: 4eb19b336d42aff4085740f642789487
   - enabled: 1
+    path: Assets/Scenes/Nights/Night5.unity
+    guid: 6de3e7aecab2ff14c995b328101296bc
+  - enabled: 1
     path: Assets/Scenes/Nights/secretnight.unity
     guid: 49995033a3e4f9745a2fd152db342a60
   - enabled: 1
