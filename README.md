@@ -4,6 +4,8 @@
 
 Currently in development by **Kay**.  
 
+Game about my old school. Was made for a joke but then I actually decided to learn my knowledge on this game by keep developing it
+
 This project was originally hosted on someone else’s repository, so I’ve migrated it over to my own.  
 I can provide proof of all commits if needed — just reach out.  
 
