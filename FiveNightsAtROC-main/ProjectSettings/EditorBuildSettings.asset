@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Nights/Night3.unity
     guid: 39bbad2381917e049bfa2c607b2ff205
   - enabled: 1
+    path: Assets/Scenes/MainStuff/6AM69420CODE.unity
+    guid: 9bd796ef53d2dd5459e1bcf774d5b4e9
+  - enabled: 1
     path: Assets/Scenes/MainStuff/Extra.unity
     guid: 1267e3554e4ed7b4e98f20cf0512e372
   - enabled: 1
