@@ -75,7 +75,7 @@ public class BOSS : MonoBehaviour
                 staticCams[currentCamIndex].SetActive(false);
 
                 // stay in cam for random timer
-                float stayTime = Random.Range(5f, 10f);
+                float stayTime = Random.Range(12f, 16f);
                 float elapsed = 0f;
                 while (elapsed < stayTime)
                 {
