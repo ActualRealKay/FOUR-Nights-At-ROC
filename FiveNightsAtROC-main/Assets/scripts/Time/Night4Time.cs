@@ -121,11 +121,23 @@ public class Night4Time : MonoBehaviour
 
     void EndGame()
     {
+        // Mark Night 4 as completed
+        PlayerPrefs.SetInt("Night4Completed", 1);
+
+        // Update current night
         PlayerPrefs.SetString("currentnight", "Night 4");
+
+        // Save changes
+        PlayerPrefs.Save();
+
+        // End game logic
         gameEnded = true;
         timerText.text = "6 AM";
+
+        // Load whatever scene comes after
         SceneManager.LoadScene("6AMWILDCODE");
     }
+
 
     public void SetTimeScale(float newTimeScale)
     {

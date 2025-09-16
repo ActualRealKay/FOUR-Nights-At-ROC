@@ -105,11 +105,21 @@ public class Night2Time : MonoBehaviour
 
     void EndGame()
     {
+        // Mark Night 2 as completed
+        PlayerPrefs.SetInt("Night2Completed", 1);
+
+        // Update the current night
         PlayerPrefs.SetString("currentnight", "Night 3");
+
+        // Save changes
+        PlayerPrefs.Save();
+
+        // End game logic
         gameEnded = true;
         timerText.text = "6 AM";
         SceneManager.LoadScene("6AM69420CODE");
     }
+
 
     public void SetTimeScale(float newTimeScale)
     {

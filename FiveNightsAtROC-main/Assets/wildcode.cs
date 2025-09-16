@@ -1,9 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class secretcode : MonoBehaviour
+public class WildCode : MonoBehaviour
 {
-    private KeyCode[] sequence = { KeyCode.Alpha6, KeyCode.Alpha9, KeyCode.Alpha4, KeyCode.Alpha2, KeyCode.Alpha0 };
+    private KeyCode[] sequence = { KeyCode.W, KeyCode.I, KeyCode.L, KeyCode.D };
     private int currentIndex = 0;
 
     void Update()
@@ -16,7 +16,7 @@ public class secretcode : MonoBehaviour
 
                 if (currentIndex == sequence.Length)
                 {
-                    ChangeScene("secretam");
+                    ChangeScene("wild");
                     currentIndex = 0;
                 }
             }
