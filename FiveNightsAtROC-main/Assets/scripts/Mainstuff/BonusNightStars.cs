@@ -8,16 +8,9 @@ public class BonusNightStars : MonoBehaviour
 
     void Start()
     {
-        int starToShow = PlayerPrefs.GetInt("BonusStar", 0); // Default 0 = none
-
-        // Disable all stars first
-        star1.SetActive(false);
-        star2.SetActive(false);
-        star3.SetActive(false);
-
-        // Enable the correct star
-        if (starToShow == 1) star1.SetActive(true);
-        else if (starToShow == 2) star2.SetActive(true);
-        else if (starToShow == 3) star3.SetActive(true);
+        // Enable each star independently based on PlayerPrefs
+        star1.SetActive(PlayerPrefs.GetInt("Star1Unlocked", 0) == 1);
+        star2.SetActive(PlayerPrefs.GetInt("Star2Unlocked", 0) == 1);
+        star3.SetActive(PlayerPrefs.GetInt("Star3Unlocked", 0) == 1);
     }
 }

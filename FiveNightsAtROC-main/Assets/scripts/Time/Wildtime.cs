@@ -121,13 +121,13 @@ public class Wildtime : MonoBehaviour
 
     void EndGame()
     {
-        // Decide which star to show. Example: show star 2
-        PlayerPrefs.SetInt("BonusStar", 2); // 1, 2, or 3
+        // Unlock star 2 without touching others
+        PlayerPrefs.SetInt("Star2Unlocked", 1);
         PlayerPrefs.Save();
 
         gameEnded = true;
         timerText.text = "6 AM";
-        SceneManager.LoadScene("6AM"); // Or "MainMenu" if that’s the actual scene
+        SceneManager.LoadScene("6AM");
     }
 
     public void SetTimeScale(float newTimeScale)

@@ -105,12 +105,12 @@ public class secrettime : MonoBehaviour
 
     void EndGame()
     {
-        // Set BonusStar to 1 for this game
-        PlayerPrefs.SetInt("BonusStar", 1);
+        // Unlock star 1 without touching others
+        PlayerPrefs.SetInt("Star1Unlocked", 1);
         PlayerPrefs.Save();
 
         gameEnded = true;
         timerText.text = "6 AM";
-        SceneManager.LoadScene("6AM"); // Or "MainMenu" if that's your actual menu scene
+        SceneManager.LoadScene("6AM");
     }
 }
