@@ -2197,7 +2197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 579798a8be93fb5479fea506b9ab03f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameDurationInSeconds: 600
+  gameDurationInSeconds: 383
   timeScale: 1
   textObject: {fileID: 1890155615}
   bossAI: {fileID: 1096288432}
@@ -9008,7 +9008,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bf0c0268751efbd46b745b00f8d57af6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bdc1bcc9e5f8af94588f7d278563be76, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.8
   m_Pitch: 1
