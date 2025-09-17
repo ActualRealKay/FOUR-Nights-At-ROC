@@ -25,6 +25,8 @@ public class BOSS : MonoBehaviour
 
     [Header("Leave Buttons (bosslurebutton)")]
     public Button[] leaveButtons;      // one button per cam (skip cam 8)
+    public AudioSource buttonSound;    // play when button is pressed
+    public GameObject buttonVisual;    // UI Image to fade out on press
 
     private int currentCamIndex = -1;
     private bool isInOffice = false;
@@ -96,6 +98,14 @@ public class BOSS : MonoBehaviour
     // leave button calls this with its cam index
     public void LeaveCamSafely(int camIndex)
     {
+        // play button sound
+        if (buttonSound != null)
+            buttonSound.Play();
+
+        // show visual object with fade out
+        if (buttonVisual != null)
+            StartCoroutine(FadeOutButtonVisual());
+
         // disable the button no matter what
         leaveButtons[camIndex].gameObject.SetActive(false);
         StartCoroutine(ReenableButton(camIndex, 5f));
@@ -106,6 +116,36 @@ public class BOSS : MonoBehaviour
             bossCams[currentCamIndex].SetActive(false);
             leaveSound.Play();
             currentCamIndex = -1; // allow new random cam spawn
+        }
+    }
+
+    private IEnumerator FadeOutButtonVisual()
+    {
+        Image img = buttonVisual.GetComponent<Image>();
+        if (img != null)
+        {
+            buttonVisual.SetActive(true);
+            float duration = 0.5f;
+            float elapsed = 0f;
+            Color originalColor = img.color;
+            originalColor.a = 1f;
+            img.color = originalColor;
+
+            while (elapsed < duration)
+            {
+                elapsed += Time.deltaTime;
+                float t = elapsed / duration;
+                Color c = img.color;
+                c.a = Mathf.Lerp(1f, 0f, t);
+                img.color = c;
+                yield return null;
+            }
+
+            buttonVisual.SetActive(false);
+            // reset alpha back to 1 for next time
+            Color resetColor = img.color;
+            resetColor.a = 1f;
+            img.color = resetColor;
         }
     }
 
