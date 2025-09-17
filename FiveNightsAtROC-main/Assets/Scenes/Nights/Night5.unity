@@ -2194,12 +2194,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 182327851}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf05cc77aa14d114699cb035fbbb5ce3, type: 3}
+  m_Script: {fileID: 11500000, guid: 579798a8be93fb5479fea506b9ab03f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameDurationInSeconds: 232
+  gameDurationInSeconds: 600
   timeScale: 1
   textObject: {fileID: 1890155615}
+  bossAI: {fileID: 1096288432}
   rickAI: {fileID: 70329117}
   korsAI: {fileID: 540241718}
   PaulAI: {fileID: 132150362}
