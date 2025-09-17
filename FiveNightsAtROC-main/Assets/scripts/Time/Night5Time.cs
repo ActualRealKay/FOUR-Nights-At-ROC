@@ -72,6 +72,7 @@ public class Night5Time : MonoBehaviour
             PeterAI.ailevel = 0;
             VikingAI.aiLevel = 0;
             UnknownAI.ailevel = 3;
+            bossAI.aiLevel = 0;
         }
         else if (currentHour == 1)
         {
@@ -81,6 +82,7 @@ public class Night5Time : MonoBehaviour
             PeterAI.ailevel = 2;
             VikingAI.aiLevel = 7;
             UnknownAI.ailevel = 3;
+            bossAI.aiLevel = 2;
         }
         else if (currentHour == 2)
         {
@@ -90,6 +92,7 @@ public class Night5Time : MonoBehaviour
             PeterAI.ailevel = 4;
             VikingAI.aiLevel = 9;
             UnknownAI.ailevel = 3;
+            bossAI.aiLevel = 5;
         }
         else if (currentHour == 3)
         {
@@ -99,6 +102,7 @@ public class Night5Time : MonoBehaviour
             PeterAI.ailevel = 6;
             VikingAI.aiLevel = 11;
             UnknownAI.ailevel = 6;
+            bossAI.aiLevel = 9;
         }
         else if (currentHour == 4)
         {
@@ -108,6 +112,7 @@ public class Night5Time : MonoBehaviour
             PeterAI.ailevel = 2;
             VikingAI.aiLevel = 14;
             UnknownAI.ailevel = 6;
+            bossAI.aiLevel = 10;
         }
         else if (currentHour == 5)
         {
@@ -117,6 +122,7 @@ public class Night5Time : MonoBehaviour
             PeterAI.ailevel = 2;
             VikingAI.aiLevel = 16;
             UnknownAI.ailevel = 6;
+            bossAI.aiLevel = 15;
         }
     }
 
