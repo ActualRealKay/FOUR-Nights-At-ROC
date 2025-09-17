@@ -3301,8 +3301,8 @@ Transform:
   m_GameObject: {fileID: 231345886}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.566174, y: -1.2038382, z: 0}
-  m_LocalScale: {x: 1.9670315, y: 4.1918135, z: 2.975027}
+  m_LocalPosition: {x: 10.1, y: -1.2038382, z: 0}
+  m_LocalScale: {x: 2.6277573, y: 5.5998435, z: 3.9743385}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1184749157}
@@ -3348,7 +3348,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: e16512e88b7e1154cbbe2074067cd6f9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d90235af82b35ac4bbaaab57ba660056, type: 3}
   m_Color: {r: 0.32156864, g: 0.4627451, b: 0.65882355, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5908,7 +5908,7 @@ GameObject:
   - component: {fileID: 423401451}
   - component: {fileID: 423401452}
   m_Layer: 0
-  m_Name: Jerman
+  m_Name: Hacker3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5923,8 +5923,8 @@ Transform:
   m_GameObject: {fileID: 423401450}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.2026534, y: -5.7853827, z: 0}
-  m_LocalScale: {x: 1.0040572, y: 2.5040803, z: 2.975027}
+  m_LocalPosition: {x: -1.71, y: -5.7853827, z: 0}
+  m_LocalScale: {x: 3.0488489, y: 5.9571557, z: 7.0775285}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1184749157}
@@ -5970,8 +5970,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 955914cd557921b47862c476ad672337, type: 3}
-  m_Color: {r: 0.32156864, g: 0.4627451, b: 0.65882355, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 3ec4afbb926262443b68d6780f18f90c, type: 3}
+  m_Color: {r: 0.23740655, g: 0.35503224, b: 0.5188679, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6502,7 +6502,7 @@ GameObject:
   - component: {fileID: 505780893}
   - component: {fileID: 505780894}
   m_Layer: 0
-  m_Name: Jerma2.png
+  m_Name: Hacker2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6516,13 +6516,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505780892}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.097816266, w: 0.9952045}
-  m_LocalPosition: {x: -9.17, y: 2.33, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.057151824, w: 0.9983655}
+  m_LocalPosition: {x: -9.1, y: 1.6099901, z: 0}
   m_LocalScale: {x: 0.63770986, y: 1.1453854, z: 2.975027}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1184749157}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 11.227}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6.553}
 --- !u!212 &505780894
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6564,7 +6564,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 7ce9bb84680cf33409d6d722f971a83f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56eec4171e68e4a43807c5b07377377c, type: 3}
   m_Color: {r: 0.32156864, g: 0.4627451, b: 0.65882355, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8345,9 +8345,8 @@ GameObject:
   m_Component:
   - component: {fileID: 673720509}
   - component: {fileID: 673720511}
-  - component: {fileID: 673720510}
   m_Layer: 0
-  m_Name: Jermarave
+  m_Name: Hacker4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8362,33 +8361,12 @@ Transform:
   m_GameObject: {fileID: 673720508}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.3, y: -2.9, z: 0}
-  m_LocalScale: {x: 2.4422398, y: 4.1123314, z: 2.975027}
+  m_LocalPosition: {x: 4.3, y: -3.57, z: 0}
+  m_LocalScale: {x: 4.0409946, y: 6.8043723, z: 4.9225583}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1184749157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &673720510
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 673720508}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: df7b1a9f7a5ab664ebbcd143423813e5, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &673720511
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8430,7 +8408,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 1729110291, guid: 6840d0adc09a69040b85ff14d7fea6cf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 52aece8403808da44b59162915842000, type: 3}
   m_Color: {r: 0.32156864, g: 0.4627451, b: 0.65882355, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8487,7 +8465,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: dbcfa4ea62535e044a4b689775c97611, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5f7141f8f4c57d944bb4c4c52c832ac7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -11981,7 +11959,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 336d4d8f00a96314784e1f577a6c35c6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e1885e8fdc2b5ac489415fc0504c4f7e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -12093,7 +12071,7 @@ GameObject:
   - component: {fileID: 961581012}
   - component: {fileID: 961581013}
   m_Layer: 0
-  m_Name: jermajumpscare
+  m_Name: Malwarescare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12155,7 +12133,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 834b62c2865c00347a89f905a9f46bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 307024b172d156443a9141095a422cb3, type: 3}
   m_Color: {r: 0.32156864, g: 0.4627451, b: 0.65882355, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12999,7 +12977,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: de93c7c0d3742924bb1901d40321db0d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 373f2bf61f5143a42b9b72d5002f9fe8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.115
   m_Pitch: 1
@@ -14531,8 +14509,8 @@ Transform:
   - {fileID: 1543653048}
   - {fileID: 1344779081}
   - {fileID: 505780893}
-  - {fileID: 673720509}
   - {fileID: 423401451}
+  - {fileID: 673720509}
   - {fileID: 231345887}
   - {fileID: 961581012}
   - {fileID: 1112850919}
@@ -16865,7 +16843,7 @@ GameObject:
   - component: {fileID: 1344779081}
   - component: {fileID: 1344779082}
   m_Layer: 0
-  m_Name: jermalook
+  m_Name: Hacker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16880,7 +16858,7 @@ Transform:
   m_GameObject: {fileID: 1344779080}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.08165846, w: 0.9966604}
-  m_LocalPosition: {x: -13.482, y: 0.95001036, z: 0}
+  m_LocalPosition: {x: -13.44, y: 0.45, z: 0}
   m_LocalScale: {x: 0.5967453, y: 1.1842239, z: 2.975027}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16927,7 +16905,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 6cbdf30b057515947982db841d83f1a6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56eec4171e68e4a43807c5b07377377c, type: 3}
   m_Color: {r: 0.32156864, g: 0.4627451, b: 0.65882355, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18653,7 +18631,7 @@ GameObject:
   - component: {fileID: 1485917174}
   - component: {fileID: 1485917175}
   m_Layer: 0
-  m_Name: jermacatchyou
+  m_Name: Malwarescare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18715,7 +18693,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 834b62c2865c00347a89f905a9f46bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 307024b172d156443a9141095a422cb3, type: 3}
   m_Color: {r: 0.32156864, g: 0.4627451, b: 0.65882355, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -19603,7 +19581,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c417318e1b3bfb347902f71b3395f486, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cff9d08cf80fbee409e2197544330ebf, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -20194,7 +20172,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 05ab5f5c8ed7ff14db2eadd6dc8acdba, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2476192cee557074d95625c147eff198, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -21383,8 +21361,8 @@ Transform:
   m_GameObject: {fileID: 1741998515}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.43668374, y: -0.8854269, z: -31.322508}
-  m_LocalScale: {x: 6.313331, y: 8.534034, z: 9.075413}
+  m_LocalPosition: {x: 1.01, y: -4.42, z: -31.322508}
+  m_LocalScale: {x: 2.2397804, y: 3.0276191, z: 3.2196841}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 666072695}
@@ -21430,7 +21408,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 041fc115ced9a6542b6120570e7ce992, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7757829fd19a4e1478ac95c10c8df80c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22517,7 +22495,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 705aeee838f9691419ff2c0b7a342b55, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9a0fc9cf62644d64784c6a982a4b4255, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -25066,7 +25044,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0276052b0c30dd64da719809b92350cf, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e77b28eae6fc57f4a9afd757c2be7049, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
