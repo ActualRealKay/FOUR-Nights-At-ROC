@@ -128,11 +128,8 @@ public class Night5Time : MonoBehaviour
 
     void EndGame()
     {
-        // Unlock Star 2
-        PlayerPrefs.SetInt("Star2Unlocked", 1);
-
-        // Mark Wild code as completed
-        PlayerPrefs.SetInt("WildCompleted", 1);
+        // Unlock Star 3
+        PlayerPrefs.SetInt("Star3Unlocked", 1);
 
         // Save all changes
         PlayerPrefs.Save();
@@ -142,6 +139,7 @@ public class Night5Time : MonoBehaviour
         timerText.text = "6 AM";
         SceneManager.LoadScene("6AM");
     }
+
 
     public void SetTimeScale(float newTimeScale)
     {

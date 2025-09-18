@@ -1580,6 +1580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   star1: {fileID: 1298704582}
   star2: {fileID: 820083842}
+  star3: {fileID: 1745135121}
   specialButton: {fileID: 438271372}
 --- !u!1 &726192652
 GameObject:

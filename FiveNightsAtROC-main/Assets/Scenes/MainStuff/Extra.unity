@@ -1296,6 +1296,15 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 955914cd557921b47862c476ad672337, type: 3}
   - {fileID: 21300000, guid: c68a58362a8febd469151aaabd8cffff, type: 3}
   - {fileID: 21300000, guid: 9f63a55b4ade0004db9aa2dc25be7b44, type: 3}
+  - {fileID: 21300000, guid: e71d07dafca16504a8e6943f8eebf01a, type: 3}
+  - {fileID: 21300000, guid: 7157e1ee9331bd8468b139f9929f6524, type: 3}
+  - {fileID: 21300000, guid: 52d4afc719d776f4f891a98fcf168dcf, type: 3}
+  - {fileID: 21300000, guid: 209d8b0c0b75aae4d9c8e81b657d9501, type: 3}
+  - {fileID: 21300000, guid: 6ab6f863ca66e7a43b4b22cc88df1b33, type: 3}
+  - {fileID: 21300000, guid: 39fd285496049eb4a91a663267cf27b3, type: 3}
+  - {fileID: 21300000, guid: e6a96bbedadfe2d49b72391521a584ed, type: 3}
+  - {fileID: 21300000, guid: a5312fb964cb2d049bf7e7dd939cced8, type: 3}
+  - {fileID: 21300000, guid: 71ae024b1c6e6ed47a1611eafbb9cbee, type: 3}
   names:
   - Rick
   - Paul
@@ -1311,6 +1320,15 @@ MonoBehaviour:
   - Jerma
   - Muzan
   - Kors
+  - BOSS
+  - Flumpty
+  - Hacker
+  - Michael Myers
+  - Discord CURSED
+  - Office
+  - TACO TIME!
+  - Phoneguy
+  - BOSS CAR
   descriptions:
   - The Goat Teacher. Something changed him tho.... We dont know what happened.
   - Retired Teacher that came back for revenge. Decided the best way to take revenge
@@ -1330,6 +1348,20 @@ MonoBehaviour:
   - Thought you was Akaza for a second
   - Works from home but calls to check on you. It seems he is the most normal of
     them all.
+  - Phoneguy that helped you through the nights. But started hating it that you got
+    out so decided to come after you with his car
+  - Flumpty suddenly came to this world to haunt you. Looks like he was not done
+    with you yet.....
+  - The one and only Hacker. Was paid a lot to come and sabotage your night...
+  - Found a new victim and looks like you were the one he chose... Got some surviving
+    to do buddy
+  - Scrapped Idea.... Supposedly was meant to fool you thinking you actually got
+    called by someone
+  - This is where the player sit! WOW SO COOL
+  - Scrapped Idea.... Supposedly was meant put ads on your screen so you had to click
+    it away but turned out viking rick took that place already
+  - HELLO??? HELLO HELLO???
+  - Figure it out
   nameText: {fileID: 1902752205}
   descriptionText: {fileID: 2077217073}
   targetSize: {x: 8, y: 8}
